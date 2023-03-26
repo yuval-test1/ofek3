@@ -16,6 +16,7 @@ export const CustomerEdit = (props: EditProps): React.ReactElement => {
     <Edit {...props}>
       <SimpleForm>
         <TextInput label="Comments" multiline source="comments" />
+        <TextInput label="email" source="email" type="email" />
         <ReferenceArrayInput
           source="events"
           reference="Event"
