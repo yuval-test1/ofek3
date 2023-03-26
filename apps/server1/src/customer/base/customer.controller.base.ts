@@ -55,6 +55,7 @@ export class CustomerControllerBase {
       select: {
         comments: true,
         createdAt: true,
+        email: true,
         firstName: true,
         id: true,
         lastName: true,
@@ -82,6 +83,7 @@ export class CustomerControllerBase {
       select: {
         comments: true,
         createdAt: true,
+        email: true,
         firstName: true,
         id: true,
         lastName: true,
@@ -110,6 +112,7 @@ export class CustomerControllerBase {
       select: {
         comments: true,
         createdAt: true,
+        email: true,
         firstName: true,
         id: true,
         lastName: true,
@@ -147,6 +150,7 @@ export class CustomerControllerBase {
         select: {
           comments: true,
           createdAt: true,
+          email: true,
           firstName: true,
           id: true,
           lastName: true,
@@ -183,6 +187,7 @@ export class CustomerControllerBase {
         select: {
           comments: true,
           createdAt: true,
+          email: true,
           firstName: true,
           id: true,
           lastName: true,
